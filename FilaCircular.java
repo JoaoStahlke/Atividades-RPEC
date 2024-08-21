@@ -4,7 +4,7 @@ public class FilaCircular<T> {
     private T[] data;
     private int size;
     private int count = 0; // controla o número de elementos na fila
-    
+
     public FilaCircular(int size) {
         this.size = size;
         this.data = (T[]) new Object[size];

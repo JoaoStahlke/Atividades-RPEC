@@ -16,7 +16,7 @@ public class FloodFillTestes {
 
     public static void main(String[] args) {
         try { // Try Obrigatório do Intellij pelo Jeito e Carregar Imagem Buffered
-            BufferedImage image = ImageIO.read(new File("ultrateste.png")); // Caminho para Imagem é passado ao objeto file
+            BufferedImage image = ImageIO.read(new File("xd.png")); // Caminho para Imagem é passado ao objeto file
 
             // Coordenadas iniciais
             int startX = 1; // x=1
@@ -32,7 +32,7 @@ public class FloodFillTestes {
             floodFill(image, startX, startY, targetColor, newColor);
 
             // Salva a imagem modificada em PNG
-            ImageIO.write(image, "png", new File("ultrateste4.png"));
+            ImageIO.write(image, "png", new File("xd2.png"));
             System.out.println("Tudo Inundado!");
 
         } catch (IOException e) {
